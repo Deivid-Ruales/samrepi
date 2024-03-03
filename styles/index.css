@@ -1,0 +1,49 @@
+body {
+    background-image: url("../resources/bg-color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#ededed;
+    height: fit-content;
+}
+.form-div-bg {
+    width: 400px;
+    height: 540px;
+    position: fixed;
+    top: 12%;
+    left: 13%;
+    background-color: #C6C6C6;
+    border-radius: 1%;
+}
+
+.form-div {
+    width: 400px;
+    height: 540px;
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    background-color: #fcfcfc;
+    border-radius: 1%;
+}
+
+.title {
+    width: 200px;
+    margin: auto;
+}
+
+.text-title {
+    color: #3F337B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+@media screen {
+    
+}
+
+.logo {
+    max-width: 500px;
+    top: 40%;
+    right: 15%;
+    position:fixed;
+}
