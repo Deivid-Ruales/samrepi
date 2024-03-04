@@ -1,3 +1,7 @@
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     background-image: url("../resources/bg-color.jpg");
     background-size: cover;
@@ -12,7 +16,7 @@ body {
     top: 12%;
     left: 13%;
     background-color: #C6C6C6;
-    border-radius: 1%;
+    border-radius: 4px;
 }
 
 .form-div {
@@ -22,23 +26,58 @@ body {
     top: 10%;
     left: 15%;
     background-color: #fcfcfc;
-    border-radius: 1%;
+    border-radius: 4px;
 }
 
 .title {
     width: 200px;
     margin: auto;
+    padding-top: 40px;
 }
 
 .text-title {
     color: #3F337B;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
+.form {
+    margin: auto;
+    width: 300px;
+    justify-content: center;
+}
 
-@media screen {
-    
+.input-form {
+    background-color:#fcfcfc;
+    width: 295px;
+    padding: 5px;
+    margin: 20px 0 5px 0;
+    border: none;
+    border-bottom: 2px solid #3F337B;
+    text-align: center;
+    outline: none;
+}
+
+.label-input {
+    margin: auto;
+    text-align: center;
+    color: #3F337B;
+}
+
+.login-button {
+    color: white;
+    background-color:#3F337B;
+    border-color: rgb(0, 136, 255);
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 50px 35%;
+}
+
+.forgot-pass-link {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
 }
 
 .logo {
@@ -46,4 +85,12 @@ body {
     top: 40%;
     right: 15%;
     position:fixed;
+}
+
+/*change size to logo in small screen*/
+@media (max-width:1280px){
+    .logo {
+        width: 40%;
+        z-index: -1; /*put the image to back*/
+    }
 }
