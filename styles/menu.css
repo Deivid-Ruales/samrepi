@@ -1,0 +1,42 @@
+.body-menu {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #1720a1;
+    top: 0;
+}
+
+.logo-header {
+    margin: 20px 50% 20px 20px;
+    width: 200px;
+}
+
+.options-header {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    
+}
+
+.main-menu {
+    background-image: url("/resources/bg-color-2.jpg");
+    width: 100%;
+    height: auto;
+}
+
+.customer-list-menu{
+    background-color: white;
+    width: fit-content;
+    margin: 20px 10px;
+    display: inline-block;
+
+}
+
+.image-menu {
+    width: 100px;
+    margin: auto;
+}
