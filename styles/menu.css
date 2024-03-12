@@ -1,4 +1,4 @@
-.body-menu {
+body {
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -32,14 +32,17 @@
     margin-left: 30px; 
 }
 
-.main-menu {
+.bg-main {
     background-image: url("/resources/bg-color-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     width: auto;
-    height: 100%;
-    padding: 17px 26%;
+    min-height: 515px;
+}
+
+.bg-main-page {
+    padding: 10px 26%;
 }
 
 .item-menu {
