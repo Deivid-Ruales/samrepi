@@ -4,67 +4,98 @@
 }
 
 .header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #1720a1;
     top: 0;
 }
 
 .logo-header {
-    margin: 20px 50% 20px 20px;
+    margin: 10px;
     width: 200px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    flex-grow: 1; 
+    margin-right: 20px;
 }
 
 .options-header {
     text-decoration: none;
-    margin: 30px;
     color: white;
-    
+    margin-left: 30px; 
 }
 
 .main-menu {
     background-image: url("/resources/bg-color-2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px 18%;
+    background-position: bottom;
+    width: auto;
+    height: 100%;
+    padding: 17px 26%;
 }
 
-.item-menu{
+.item-menu {
     background-color: white;
-    width: 180px;
-    height: 200px;
+    width: 170px;
+    height: 190px;
     padding: 20px;
     margin: 10px;
+    border-radius: 4px;
     display: inline-block;
-
+    border-left: 5px solid #C6C6C6;
+    border-bottom: 5px solid #C6C6C6;
 }
 
 .image-menu {
-    width: 150px;
-    height: 150px;
-    display:flexbox;
-    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 0 8%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .title-menu {
     text-align: center;
     font-size: larger;
+    display: grid;
 }
 
 .footer-menu {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #1720a1;
     bottom: 0;
     display: inline-block;
     position: relative;
-
+    
 }
 
 .text-footer {
     color: white;
+    margin: 0 auto;
+    padding: 10px 0; 
+    text-align: center;
+}
+
+.images-footer {
+    margin: 0 auto; 
+    text-align: center; 
+    display: block; 
 }
 
 .contact-icons-footer {
     width: 30px;
     height: 30px;
+    margin-left: 10px;
 }
