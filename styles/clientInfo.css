@@ -1,11 +1,11 @@
-.bg-new-client {
+.bg-client {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
 .form-div-bg {
-    width: 450px;
+    width: 800px;
     height: 500px;
     position: fixed;
     background-color: #C6C6C6;
@@ -14,7 +14,7 @@
 }
 
 .form-div {
-    width: 450px;
+    width: 800px;
     height: 500px;
     position: fixed;
     background-color: #fcfcfc;
@@ -23,58 +23,69 @@
     top: 105px;
 }
 
-.title {
-    width: 350px;
-    margin: auto;
-    padding-top: 10px;
+.client-data {
+    width: 500px;
+    justify-content: left;
+    margin: 40px;   
 }
 
-.text-title {
-    color: #3F337B;
-    text-align: center;
-}
-
-.form {
-    margin: auto;
-    width: 300px;
-    justify-content: center;
-}
-
-.input-form {
+.label-client {
     background-color:#fcfcfc;
-    width: 295px;
-    padding: 5px;
-    margin: 20px 0 5px 0;
-    border: none;
-    border-bottom: 2px solid #3F337B;
-    text-align: center;
-    outline: none;
+    text-align: left;
+    position: fixed;
+    margin: 0;
+    font-weight: bolder;
+}    
+
+.data {
+    margin-left: 100px;
+    text-align: left;
+    position: static;
+    margin: 0 100px;
 }
 
-.label-input {
-    margin: auto;
+.device-table {
+    width: 720px;
+    max-height: 300px;
+    margin: 40px;
+    border: 1px solid black;
+}
+
+.table-head {
+    background-color: #3F337B;
+    color: white;
+    font-weight: lighter;
+    height: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    height: 20px;
     text-align: center;
-    color: #3F337B;
 }
 
 .register-button {
-    color: white;
     background-color:#3F337B;
+    color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
+    width: 200px;
     height: 35px;
     border-radius: 10px;
-    margin: 50px 35%;
+    position:fixed;
+    right: 40px;
+    top: 80px;
 }
 
 .register-button:hover {
     background-color: #5a48b1;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
+    width: 200px;
     height: 35px;
     border-radius: 10px;
-    margin: 50px 35%;
+    position:fixed;
+    right: 40px;
+    top: 80px;
     cursor: pointer;
 }
 
@@ -82,10 +93,12 @@
     background-color: #7560dc;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
+    width: 200px;
     height: 35px;
     border-radius: 10px;
-    margin: 50px 35%;
+    position:fixed;
+    right: 40px;
+    top: 80px;
     cursor: progress;
 }
 
