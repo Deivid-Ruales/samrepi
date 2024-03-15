@@ -61,26 +61,33 @@ body {
     margin: auto;
     text-align: center;
     color: #3F337B;
+
 }
 
 .login-button {
     color: white;
     background-color:#3F337B;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    width: 70px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    margin: 50px auto 20px auto;
+    text-decoration: none;
+    padding: 5px 10px 5px 22px;
+    display: flex;
 }
 
 .login-button:hover {
     background-color: #5a48b1;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    width: 70px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    margin: 50px auto 20px auto;
+    text-decoration: none;
+    padding: 5px 10px 5px 22px;
+    display: flex;
     cursor: pointer;
 }
 
@@ -88,10 +95,13 @@ body {
     background-color: #7560dc;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    width: 70px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    margin: 50px auto 20px auto;
+    text-decoration: none;
+    padding: 5px 10px 5px 22px;
+    display: flex;
     cursor: progress;
 }
 

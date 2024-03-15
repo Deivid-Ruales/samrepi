@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/clientInfo.css">
+  <link rel="stylesheet" href="/styles/listClient.css">
   <link rel="stylesheet" href="/styles/menu.css">
-  <title>Información de cliente</title>
+  <title>Lista de Dispositivos</title>
 </head>
 
 <body>
@@ -25,32 +25,28 @@
 
     <div class="form-div-bg">
       <div class="form-div">
-        <div class="client-data">
-          <p class="label-client">NOMBRE:</p>
-          <p class="data">Deivid</p>
-          <p class="label-client">CÉDULA:</p>
-          <p class="data">1085000111</p>
-          <p class="label-client">TELÉFONO:</p>
-          <p class="data">3153890000</p>
-          <p class="label-client">DIRECCIÓN:</p>
-          <p class="data">Carrera 25 No. 20 - 22 Centro</p>
-        </div>
-        <a href="newDevice.html" class="register-button">Crear nuevo dispositivo</a>
+        <div class="title">
+            <h1 class="text-title">DISPOSITIVOS</h1>
+          </div>
         <table class="device-table">
           <tr class="table-head">
             <th>No.</th>
+            <th>Tipo</th>
             <th>Marca</th>
             <th>Referencia</th>
             <th>Serial</th>
-            <th class="column-image">Ver historial</th>
+            <th>Propietario</th>
+            <th class="column-image">Historial</th>
             <th class="column-image">Editar</th>
             <th class="column-image">Eliminar</th>
           </tr>
           <tr>
             <td>1</td>
+            <td>Impresora</td>
             <td>Epson</td>
             <td>L210</td>
             <td>VNHK0255TD3</td>
+            <td>Deivid Ruales</td>
             <td><a href="historyDevice.html"><img class="image-table" src="/resources/watch.png"></a></td>
             <td><a href="#"><img class="image-table" src="/resources/config.png"></a></td>
             <td><a href="#"><img class="image-table" src="/resources/trash.png"></a></td>
