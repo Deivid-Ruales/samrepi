@@ -65,20 +65,26 @@
     color: white;
     background-color:#3F337B;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    text-decoration: none;
+    padding:5px 10px;
+    width: 110px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    display: flex;
+    margin: auto;
 }
 
 .register-button:hover {
     background-color: #5a48b1;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    text-decoration: none;
+    padding:5px 10px;
+    width: 110px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    display: flex;
+    margin: auto;
     cursor: pointer;
 }
 
@@ -86,10 +92,13 @@
     background-color: #7560dc;
     color: white;
     border-color: rgb(0, 136, 255);
-    width: 100px;
-    height: 35px;
+    text-decoration: none;
+    padding:5px 10px;
+    width: 110px;
+    height: 20px;
     border-radius: 10px;
-    margin: 50px 35%;
+    display: flex;
+    margin: auto;
     cursor: progress;
 }
 

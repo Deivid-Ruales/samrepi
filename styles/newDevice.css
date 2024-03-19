@@ -6,7 +6,7 @@
 
 .form-div-bg {
     width: 450px;
-    min-height: 500px;
+    min-height: 510px;
     position: fixed;
     background-color: #C6C6C6;
     border-radius: 4px;
@@ -26,7 +26,6 @@
 .title {
     width: 450px;
     margin: auto;
-    padding-top: 10px;
 }
 
 .text-title {
@@ -62,9 +61,11 @@
     background-color:#3F337B;
     border-color: rgb(0, 136, 255);
     width: 100px;
-    height: 35px;
+    height: 30px;
     border-radius: 10px;
-    margin: 30px 35%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    padding: 5px 20px;
 }
 
 .register-button:hover {
@@ -72,9 +73,11 @@
     color: white;
     border-color: rgb(0, 136, 255);
     width: 100px;
-    height: 35px;
+    height: 30px;
     border-radius: 10px;
-    margin: 30px 35%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    padding: 5px 20px;
     cursor: pointer;
 }
 
@@ -83,9 +86,11 @@
     color: white;
     border-color: rgb(0, 136, 255);
     width: 100px;
-    height: 35px;
+    height: 30px;
     border-radius: 10px;
-    margin: 30px 35%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    padding: 5px 20px;
     cursor: progress;
 }
 
